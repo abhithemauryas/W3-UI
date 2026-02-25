@@ -1,0 +1,3 @@
+export const BLOCK_USER = 'BLOCK_USER';
+export const BLOCK_USER_SUCCESS = 'BLOCK_USER_SUCCESS';
+export const BLOCK_USER_ERROR = 'BLOCK_USER_ERROR';

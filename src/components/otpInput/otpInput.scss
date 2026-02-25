@@ -1,0 +1,95 @@
+.otp-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otpError {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 8px;
+  color: #d32f2f;
+}
+
+.otp-input input {
+  width: 46px;
+  height: 46px;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.otp-input input:focus-visible {
+  border-color: rgba(146, 44, 136, 0.6) !important;
+  outline: none;
+}
+
+.otp-input .dash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  font-size: 16px;
+  color: #999;
+}
+
+@media only screen and (max-width: 426px) {
+  .otp-input input {
+    width: 54px;
+    height: 39px;
+    padding: 0px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .otp-input {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .otp-input input {
+    width: 54px;
+    height: 39px;
+    padding: 0px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .otp-input {
+    display: flex;
+    gap: 6px;
+
+    justify-content: center;
+  }
+
+  .otpError {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #d32f2f;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .otp-input input {
+    width: 54px;
+    height: 39px;
+    padding: 0px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .otp-input {
+    display: flex;
+    gap: 5px;
+
+    justify-content: center;
+  }
+
+  .otpError {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #d32f2f;
+  }
+}
