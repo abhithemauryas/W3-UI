@@ -51,10 +51,7 @@ const AuthNavigator = () => {
     <Row className="h-100">
       <Colxx xxs="12" md="10" className="mx-auto my-auto">
         <Card className="auth-card">
-          <div className="position-relative image-side ">
-            {/* <p className="text-white h2">WELCOME TO THE BIGDEAL ADMIN</p>
-          
-          </div>
+        
           <div className="form-side">{renderForm()}</div>
         </Card>
       </Colxx>
