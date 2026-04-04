@@ -53,10 +53,7 @@ const AuthNavigator = () => {
         <Card className="auth-card">
           <div className="position-relative image-side ">
             {/* <p className="text-white h2">WELCOME TO THE BIGDEAL ADMIN</p>
-            <p className="white mb-0">
-              Please use your credentials to login.
-              <br />
-            </p> */}
+          
           </div>
           <div className="form-side">{renderForm()}</div>
         </Card>
